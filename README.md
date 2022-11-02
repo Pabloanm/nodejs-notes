@@ -50,4 +50,4 @@ when the app is lauched http://localhost:4000/, this will create an Admin user w
 
 ### Tutorial
 
-This app was created with educational purposes
+-This app was created with educational purposes-
