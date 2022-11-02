@@ -13,8 +13,9 @@ This app can do:
 ### Installation
 
 ```sh
-git clone https://github.com/FaztTech/nodejs-notes-app
+git clone https://github.com/pabloanm/nodejs-notes-app
 cd nodejs-notes-app
+npm install #to install the dependencies to the local node_modules folder
 npm i
 npm run dev # run in development mode
 npm start # run in production mode
@@ -35,22 +36,18 @@ This app needs the following environment Variables
 The most easy way to install the entire project is using docker-compose:
 
 ```shell
-git clone https://github.com/FaztTech/nodejs-notes-app
+git clone https://github.com/pabloanm/nodejs-notes-app
 cd nodejs-notes-app
 docker-compose up
 ```
 
 ### Default User
 
-when the app is lauched, this will create an Admin user with the following credentials:
+when the app is lauched http://localhost:4000/, this will create an Admin user with the following credentials:
 
 - email: `admin@localhost`
 - password: `adminpassword`
 
 ### Tutorial
 
-This app was created with educational purposes, so you can found the tutorials in the following links:
-
-- [Version 2](https://www.youtube.com/playlist?list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy), new tutorial made in 2020
-  and these are old tutorials about this app
-- [Version 1.0.0](https://youtu.be/-bI0diefasA)
+This app was created with educational purposes
